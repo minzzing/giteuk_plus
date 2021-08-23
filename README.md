@@ -37,6 +37,7 @@ ___
 ② 최종 입지에 적합한 문화 인프라 선정 및 제안
 
 ### 3) 분석 프로세스 흐름도
+![분석프로세스](https://user-images.githubusercontent.com/50040550/130420742-92fc76e3-ac7b-4390-b471-e1363995db76.png)
 
 ___
 ## 2. Directory
