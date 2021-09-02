@@ -3,7 +3,7 @@
 #### 팀 소개
 공공 빅데이터 청년 인턴십 프로젝트
 
-[박주원](https://github.com/scppliop) [김명훈](https://github.com/minghoona) [김수현](https://github.com/soohyunme) [신민경](https://github.com/minzzing) [엄현빈](https://github.com/Umhyunbin) 이현지 [하지민](https://github.com/jimnida)
+[박주원](https://github.com/scppliop) [김명훈](https://github.com/minghoona) [김수현](https://github.com/soohyunme) [신민경](https://github.com/minzzing) [엄현빈](https://github.com/Umhyunbin) [이현지](https://github.com/LocalLeeFarm) [하지민](https://github.com/jimnida)
 
 #### 분석 배경 및 목적
 도시재생은 지역의 특색 있는 자원을 활용해 역량과 잠재력을 끌어내는 것을 목표로 한다.   
