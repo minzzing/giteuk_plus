@@ -3,7 +3,7 @@
 #### 팀 소개
 공공 빅데이터 청년 인턴십 프로젝트
 
-[박주원](https://github.com/scppliop)(조장) [김명훈](https://github.com/minghoona) [김수현](https://github.com/soohyunme) [신민경](https://github.com/minzzing) [엄현빈](https://github.com/Umhyunbin) 이현지 [하지민](https://github.com/jimnida)
+[박주원](https://github.com/scppliop) [김명훈](https://github.com/minghoona) [김수현](https://github.com/soohyunme) [신민경](https://github.com/minzzing) [엄현빈](https://github.com/Umhyunbin) 이현지 [하지민](https://github.com/jimnida)
 
 #### 분석 배경 및 목적
 도시재생은 지역의 특색 있는 자원을 활용해 역량과 잠재력을 끌어내는 것을 목표로 한다.   
@@ -39,19 +39,19 @@
 
 ## 2. 분석 프로세스
 ### 1) 지역 선정
-① 도시재생 활성화 진단지표를 활용하여 도시재생사업이 필요한 지역을 Clustering 방법들(K-Means, K-Medoids, Gaussian Mixture Model)의 결과비교를 통해 선정
+① 도시재생 활성화 진단지표를 활용하여 도시재생사업이 필요한 지역을 Clustering 결과비교를 통해 선정
 
-② 문화 생활에 대한 만족도를 통해 '만족 대비 불만족 비율'인 '개선효용도'가 상대적으로 낮아 문화 개선이 필요한 지역을 탐색
+② 문화 생활에 대한 만족도를 통해 '만족 대비 불만족 비율'인 '개선효용도'가 상대적으로 낮은 문화 개선이 필요한 지역을 탐색
 
 ③ ①과 ②를 만족하는 분석 대상 지역(행정동) 선정
  
 ### 2) 인프라 선정 및 입지 선정
-#### 카테고리 선정
+#### - 카테고리 선정
 ① 히트맵을 기반으로 대상 지역의 문화, 휴식, 운동 중 부족한 인프라 파악
 
 ② 대분류 인프라의 하위 카테고리 중 생활밀접도를 기반으로 구체적인 문화 인프라 선정
 
-#### 수요지 선정
+#### - 수요지 선정
 ① 대상 자치구의 총인구 상위 지역에 해당하는 격자 도출
 - 공간가중행렬(Spatial weights matrix)의 Queen contiguity를 통해 격자별 인근 값의 가중합 사용
 
@@ -59,7 +59,7 @@
 
 ③ ①과 ②를 만족하는 문화 인프라 수요지(설치 후보지) 선정
 
-#### 최적 개수 및 입지 제안
+#### - 최적 개수 및 입지 제안
 ① 후보지 중 Minimum Vertex Cover 알고리즘을 통해 최적 입지 개수 선정
 
 ② 최종 입지에 적합한 문화 인프라 선정 및 제안
