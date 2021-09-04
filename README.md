@@ -68,3 +68,17 @@
 ![분석프로세스](https://user-images.githubusercontent.com/50040550/130420742-92fc76e3-ac7b-4390-b471-e1363995db76.png)
 
 ## 3. 데이터 수집
+분석을 위하여 아래 데이터를 수집했다.
+1. [서울특별시 활성화 지표](https://city.go.kr/portal/notice/notice/view.do?nttId=7443)
+2. [서울특별시 기초생활 수급자 통계](https://data.seoul.go.kr/dataList/10113/S/2/datasetView.do)
+![2](https://user-images.githubusercontent.com/50914564/132093956-0ccdbd76-c20a-4c3e-bc17-aa1434b4581e.png)
+3. [서울특별시 고령자현황](https://data.seoul.go.kr/dataList/10020/S/2/datasetView.do)
+![3](https://user-images.githubusercontent.com/50914564/132093953-c5e023e9-46fb-470e-b8c3-1517e6796e3f.png)
+4. [행정구역코드](https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000052&nttId=78512)  
+![4](https://user-images.githubusercontent.com/50914564/132094090-ff926f91-0323-4e72-a977-d818fe4aa5ed.png)
+
+## 4. 데이터 전처리
+전처리 : Processing_code 내부 ipynb 참조
+Clustering : Model_code 내부 ipynb 참조
+### 전처리 과정
+---
