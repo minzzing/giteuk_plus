@@ -78,7 +78,7 @@
 ![4](https://user-images.githubusercontent.com/50914564/132094090-ff926f91-0323-4e72-a977-d818fe4aa5ed.png)
 
 ## 4. 데이터 전처리
-전처리 : Processing_code 내부 ipynb 참조
+전처리 : Processing_code 내부 ipynb 참조  
 Clustering : Model_code 내부 ipynb 참조
 ### 전처리 과정
 ---
