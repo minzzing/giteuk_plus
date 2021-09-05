@@ -138,10 +138,10 @@ Model_code 내부 ipynb 참조
  
  ### 2) Target 지역 선정
 - 활성화 필요 지역(행정동)과 문화 취약 지역(자치구)에 동시에 해당하는 지역 
-<img src="https://github.com/minzzing/giteuk_plus/blob/main/img/타겟지역1.png?raw=true" width="65%" height="65%" />
+<img src="https://github.com/minzzing/giteuk_plus/blob/main/img/타겟지역1.png?raw=true" width="75%" height="75%" />
 
 - 도출된 결과 7개 행정동 중 42%를 차지하는 영등포구의 **신길3동**, **신길4동**, **신길5동**을 Target 지역으로 선정
-<img src="https://github.com/minzzing/giteuk_plus/blob/main/img/타겟지역2.png?raw=true" width="50%" height="50%" />
+<img src="https://github.com/minzzing/giteuk_plus/blob/main/img/타겟지역2.png?raw=true" width="60%" height="60%" />
 
 
  ## 7. 인프라 선정
@@ -177,17 +177,17 @@ Location 내부 spatial weights matrix.ipynb 참조
 ---
 
 - 생성된 격자에서 총인구 상위 지역 격자 선정  
-<img src="https://github.com/minzzing/giteuk_plus/blob/main/img/sum_pop.png?raw=true" width="40%" height="40%" />
+<img src="https://github.com/minzzing/giteuk_plus/blob/main/img/sum_pop.png?raw=true" width="50%" height="50%" />
 
 ### 3) 문화시설 현황 분석
 - 기존 문화시설로부터 500m 버퍼를 생성해 격자에 적용
 - 버퍼에 해당하지 않는 부분을 문화 시설이 없는 곳으로 가정  
-<img src="https://github.com/minzzing/giteuk_plus/blob/main/img/문화시설버퍼500.png?raw=true" width="60%" height="60%" />
+<img src="https://github.com/minzzing/giteuk_plus/blob/main/img/문화시설버퍼500.png?raw=true" width="70%" height="70%" />
 
 ### 4) 수요 후보지 선정
 - 총인구수 상위 지역과 문화 시설이 없는 곳을 수요 후보지로 선정
 - 선정된 수요 후보지들 중 신길3, 4, 5동 기준으로 500m 영향권 안에 있는 수요 후보지 추출
-<img src="https://github.com/minzzing/giteuk_plus/blob/main/img/최적입지도출.jpg?raw=true" width="60%" height="60%" />
+<img src="https://github.com/minzzing/giteuk_plus/blob/main/img/최적입지도출.jpg?raw=true" width="70%" height="70%" />
 
 ### 5) 최적 입지 선정 - 문화 시설 개수 및 위치 도출
 수요 후보지들 중 최적의 입지 선정을 위해 Minimum vertex cover 알고리즘을 이용
@@ -205,11 +205,11 @@ Location 내부 Vertex_Cover.ipynb 참조
 ---
 - Minimum vertex cover 알고리즘을 통해 13개의 수요 후보지를 6개로 축소
 - 축소된 6개 중에서 모든 수요 후보지를 포함할 수 있는 3곳을 최종으로 선정
-<img src="https://github.com/minzzing/giteuk_plus/blob/main/img/최적입지도출.jpg?raw=true" width="60%" height="60%" />
+<img src="https://github.com/minzzing/giteuk_plus/blob/main/img/최적입지도출.jpg?raw=true" width="70%" height="70%" />
 
 ## 9. 인프라 제안
 공공도서관과 국립도서관, 문화센터의 입지 현황을 히트맵으로 파악했을 때 신길3동, 신길4동, 신길5동에 속한 최적 입지 현황 분석 진행
 - 현황 분석 결과, 신길3동의 경우 문화센터가 적합하다고 판단
 - 신길4동, 신길5동의 경우 도서관이 적합하다고 판단
-<img src="https://github.com/minzzing/giteuk_plus/blob/main/img/인프라제안.png?raw=true" width="60%" height="60%" />
+<img src="https://github.com/minzzing/giteuk_plus/blob/main/img/인프라제안.png?raw=true" width="70%" height="70%" />
 
