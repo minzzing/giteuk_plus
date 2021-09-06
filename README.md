@@ -69,7 +69,7 @@
 <img src="https://raw.githubusercontent.com/minzzing/giteuk_plus/main/img/Process.png" width="100%" height="100%"/>
 
 ## 3. 데이터 수집
-분석을 위하여 아래 데이터를 수집했다.
+분석을 위하여 아래 데이터를 수집했다.  
 ① [서울시 활성화 지표](https://city.go.kr/portal/notice/notice/view.do?nttId=7443) - 도시재생종합정보체계  
 
 ② [서울시 기초생활 수급자 통계](https://data.seoul.go.kr/dataList/10113/S/2/datasetView.do) - 서울 열린 데이터 광장  
